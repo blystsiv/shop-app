@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "imageUrl": "https://yabloki.ua/media/cache/resolve/app_product_page_small_slider_image/9b/fc/d04d578c1be08b93360667e4ed0f.png",
+      "name": "iPhone 12",
+      "count": 5,
+      "size": {
+        "width": 146.7,
+        "height": 71.5
+      },
+      "weight": "164g",
+      "comments": [
+        {
+          "id": 1,
+          "productId": 1,
+          "description": "Great phone!",
+          "date": "14:00 22.08.2022"
+        },
+        {
+          "id": 2,
+          "productId": 1,
+          "description": "Love the camera quality.",
+          "date": "16:41 22.03.2023"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/6/7/6786786786788867_3.jpg",
+      "name": "Samsung Galaxy S21",
+      "count": 3,
+      "size": {
+        "width": 151.7,
+        "height": 71.2
+      },
+      "weight": "169g",
+      "comments": [
+        {
+          "id": 3,
+          "productId": 2,
+          "description": "Impressive display!",
+          "date": "10:45 24.06.2023"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/g/o/google_pixel_5_just_black_1_1.jpg",
+      "name": "Google Pixel 5",
+      "count": 8,
+      "size": {
+        "width": 144.7,
+        "height": 70.4
+      },
+      "weight": "151g",
+      "comments": []
+    }
+  ]
+}

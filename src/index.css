@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.min-h-90vh {
+  min-height: 90vh;
+}
+
+.product-image{
+  margin: auto;
+  max-height: 70vh;
+}
