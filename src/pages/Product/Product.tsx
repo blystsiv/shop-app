@@ -1,65 +1,26 @@
-import { useState } from 'react';
 import { Header } from '../../components/Header';
 
 export const Product = () => {
-  const [product, setProduct] = useState({
-    id: 1,
-    imageUrl:
-      'https://yabloki.ua/media/cache/resolve/app_product_page_small_slider_image/9b/fc/d04d578c1be08b93360667e4ed0f.png',
-    name: 'iPhone 12',
-    count: 5,
-    size: {
-      width: 146.7,
-      height: 71.5,
-    },
-    weight: '164g',
-    comments: [
-      {
-        id: 1,
-        productId: 1,
-        description: 'Great phone!',
-        date: '14:00 22.08.2022',
-      },
-      {
-        id: 2,
-        productId: 1,
-        description: 'Love the camera quality.',
-        date: '16:41 22.03.2023',
-      },
-      {
-        id: 3,
-        productId: 1,
-        description: 'Love the camera qua lityqu alityqua lity qual ity quality.',
-        date: '16:41 22.03.2023',
-      },
-      {
-        id: 4,
-        productId: 1,
-        description: 'Love the camera qua lityqu alityqua lity qual ity quality.',
-        date: '16:41 22.03.2023',
-      },
-    ],
-  });
-
   return (
     <div className='bg-gray-100 min-h-screen'>
       <Header />
       <div className='container mx-auto px-4 py-8'>
-
         <div className='grid grid-cols-1 md:grid-cols-2 gap-8'>
-            <img src={product.imageUrl} alt={product.name} className='object-contain min-h-96 ' />
+          <img
+            src='https://assets.stickpng.com/images/61d2f93392b57c0004c64747.png'
+            alt='iPhone 12'
+            className='object-contain'
+          />
           <div className='md:col-span-1'>
             <div className='bg-white rounded-lg shadow p-8'>
-              <h2 className='text-3xl font-semibold mb-4'>{product.name}</h2>
+              <h2 className='text-3xl font-semibold mb-4'>iPhone 12</h2>
               <div className='grid grid-cols-2 gap-4 mb-4'>
                 <div className='text-gray-500'>Count:</div>
-                <div>{product.count}</div>
+                <div>5</div>
                 <div className='text-gray-500'>Size:</div>
-                <div>
-                  {product.size.width}mm x {product.size.height}mm
-                </div>
+                <div>146.7mm x 71.5mm</div>
                 <div className='text-gray-500'>Weight:</div>
-                <div>{product.weight}</div>
+                <div>164g</div>
               </div>
               <div className='flex justify-between'>
                 <button className='px-4 py-2 bg-red-500 text-white rounded mr-2' onClick={() => {}}>
@@ -88,10 +49,10 @@ export const Product = () => {
           <h2 className='text-2xl font-semibold mb-4'>Comments</h2>
           <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
             {/* COMPONENT */}
-            {product.comments.map((comment) => (
-              <div key={comment.id} className='bg-white rounded-lg shadow p-4 mb-4'>
-                <p>{comment.description}</p>
-                <p className='text-gray-500 mt-2'>{comment.date}</p>
+            {[1, 2, 3, 4].map(() => (
+              <div key={1} className='bg-white rounded-lg shadow p-4 mb-4'>
+                <p>Great phone!</p>
+                <p className='text-gray-500 mt-2'>16:41 22.03.2023</p>
               </div>
             ))}
           </div>

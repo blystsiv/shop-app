@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "imageUrl": "https://yabloki.ua/media/cache/resolve/app_product_page_small_slider_image/9b/fc/d04d578c1be08b93360667e4ed0f.png",
+      "imageUrl": "https://assets.stickpng.com/images/61d2f93392b57c0004c64747.png",
       "name": "iPhone 12",
       "count": 5,
       "size": {
@@ -27,7 +27,7 @@
     },
     {
       "id": 2,
-      "imageUrl": "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/6/7/6786786786788867_3.jpg",
+      "imageUrl": "https://assets.stickpng.com/images/6220b2be912013c51947f9db.png",
       "name": "Samsung Galaxy S21",
       "count": 3,
       "size": {
@@ -46,7 +46,7 @@
     },
     {
       "id": 3,
-      "imageUrl": "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/g/o/google_pixel_5_just_black_1_1.jpg",
+      "imageUrl": "https://i0.wp.com/bestbuymobiles.in/wp-content/uploads/2023/03/Google-Pixel-5-8GB-128GB-Just-Black-Open-Box-Mobile-1.png?fit=1000%2C1000&ssl=1",
       "name": "Google Pixel 5",
       "count": 8,
       "size": {
